@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		12FCCDAA4AA13263C728B514 /* Pods_PickSwfit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4727C323DC70B2E86C2B861 /* Pods_PickSwfit.framework */; };
 		CF8CADE21ED51DA200DA6F05 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF8CADE11ED51DA200DA6F05 /* AppDelegate.swift */; };
 		CF8CADE41ED51DA200DA6F05 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF8CADE31ED51DA200DA6F05 /* ViewController.swift */; };
 		CF8CADE71ED51DA200DA6F05 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF8CADE51ED51DA200DA6F05 /* Main.storyboard */; };
@@ -14,6 +15,8 @@
 		CF8CADEC1ED51DA200DA6F05 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF8CADEA1ED51DA200DA6F05 /* LaunchScreen.storyboard */; };
 		CF8CADF71ED51DA200DA6F05 /* PickSwfitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF8CADF61ED51DA200DA6F05 /* PickSwfitTests.swift */; };
 		CF8CAE021ED51DA200DA6F05 /* PickSwfitUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF8CAE011ED51DA200DA6F05 /* PickSwfitUITests.swift */; };
+		CFBD43DD1ED55D3200760E96 /* SwfitAFNetworking.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFBD43DC1ED55D3200760E96 /* SwfitAFNetworking.swift */; };
+		CFE633091ED580400077958A /* AFNetworking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF6D0F9B1ED57CA300449C40 /* AFNetworking.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +37,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5D60DA262CCC698CFF7DE25F /* Pods-PickSwfit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PickSwfit.release.xcconfig"; path = "Pods/Target Support Files/Pods-PickSwfit/Pods-PickSwfit.release.xcconfig"; sourceTree = "<group>"; };
+		AF6AACC4E831AC087B75517A /* Pods-PickSwfit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PickSwfit.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PickSwfit/Pods-PickSwfit.debug.xcconfig"; sourceTree = "<group>"; };
+		C4727C323DC70B2E86C2B861 /* Pods_PickSwfit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PickSwfit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF6D0F991ED5722F00449C40 /* AFNetworking.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AFNetworking.framework; path = "Pods/../build/Debug-iphoneos/AFNetworking/AFNetworking.framework"; sourceTree = "<group>"; };
+		CF6D0F9B1ED57CA300449C40 /* AFNetworking.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AFNetworking.framework; path = "../../Library/Developer/Xcode/DerivedData/PickSwfit-gmsmbkoeenidzhguazlkclsqhzon/Build/Products/Debug-iphonesimulator/AFNetworking/AFNetworking.framework"; sourceTree = "<group>"; };
 		CF8CADDE1ED51DA200DA6F05 /* PickSwfit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PickSwfit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF8CADE11ED51DA200DA6F05 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CF8CADE31ED51DA200DA6F05 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +55,9 @@
 		CF8CADFD1ED51DA200DA6F05 /* PickSwfitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PickSwfitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF8CAE011ED51DA200DA6F05 /* PickSwfitUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickSwfitUITests.swift; sourceTree = "<group>"; };
 		CF8CAE031ED51DA200DA6F05 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CFBD43CD1ED539E400760E96 /* libAFNetworking.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libAFNetworking.a; path = "../../Library/Developer/Xcode/DerivedData/PickSwfit-gmsmbkoeenidzhguazlkclsqhzon/Build/Products/Debug-iphonesimulator/AFNetworking/libAFNetworking.a"; sourceTree = "<group>"; };
+		CFBD43CF1ED53B1B00760E96 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		CFBD43DC1ED55D3200760E96 /* SwfitAFNetworking.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwfitAFNetworking.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +65,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CFE633091ED580400077958A /* AFNetworking.framework in Frameworks */,
+				12FCCDAA4AA13263C728B514 /* Pods_PickSwfit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +87,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		00DABCEC6E16DD9608CA974F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AF6AACC4E831AC087B75517A /* Pods-PickSwfit.debug.xcconfig */,
+				5D60DA262CCC698CFF7DE25F /* Pods-PickSwfit.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		CF8CADD51ED51DA200DA6F05 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +103,8 @@
 				CF8CADF51ED51DA200DA6F05 /* PickSwfitTests */,
 				CF8CAE001ED51DA200DA6F05 /* PickSwfitUITests */,
 				CF8CADDF1ED51DA200DA6F05 /* Products */,
+				00DABCEC6E16DD9608CA974F /* Pods */,
+				F4C59EF0C2FC8ECF726CC36F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,6 +127,7 @@
 				CF8CADE81ED51DA200DA6F05 /* Assets.xcassets */,
 				CF8CADEA1ED51DA200DA6F05 /* LaunchScreen.storyboard */,
 				CF8CADED1ED51DA200DA6F05 /* Info.plist */,
+				CFBD43DC1ED55D3200760E96 /* SwfitAFNetworking.swift */,
 			);
 			path = PickSwfit;
 			sourceTree = "<group>";
@@ -125,6 +150,18 @@
 			path = PickSwfitUITests;
 			sourceTree = "<group>";
 		};
+		F4C59EF0C2FC8ECF726CC36F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CF6D0F9B1ED57CA300449C40 /* AFNetworking.framework */,
+				CF6D0F991ED5722F00449C40 /* AFNetworking.framework */,
+				CFBD43CF1ED53B1B00760E96 /* CFNetwork.framework */,
+				CFBD43CD1ED539E400760E96 /* libAFNetworking.a */,
+				C4727C323DC70B2E86C2B861 /* Pods_PickSwfit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +169,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CF8CAE061ED51DA200DA6F05 /* Build configuration list for PBXNativeTarget "PickSwfit" */;
 			buildPhases = (
+				A126565A8D037A9404816546 /* [CP] Check Pods Manifest.lock */,
 				CF8CADDA1ED51DA200DA6F05 /* Sources */,
 				CF8CADDB1ED51DA200DA6F05 /* Frameworks */,
 				CF8CADDC1ED51DA200DA6F05 /* Resources */,
+				CABE8E118F273783AE969946 /* [CP] Embed Pods Frameworks */,
+				13BAB17761EF7814FFAE79C6 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -193,6 +233,7 @@
 				TargetAttributes = {
 					CF8CADDD1ED51DA200DA6F05 = {
 						CreatedOnToolsVersion = 8.3.2;
+						LastSwiftMigration = 0830;
 						ProvisioningStyle = Automatic;
 					};
 					CF8CADF11ED51DA200DA6F05 = {
@@ -254,12 +295,61 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		13BAB17761EF7814FFAE79C6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PickSwfit/Pods-PickSwfit-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A126565A8D037A9404816546 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		CABE8E118F273783AE969946 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PickSwfit/Pods-PickSwfit-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		CF8CADDA1ED51DA200DA6F05 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				CF8CADE41ED51DA200DA6F05 /* ViewController.swift in Sources */,
+				CFBD43DD1ED55D3200760E96 /* SwfitAFNetworking.swift in Sources */,
 				CF8CADE21ED51DA200DA6F05 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -412,22 +502,35 @@
 		};
 		CF8CAE071ED51DA200DA6F05 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AF6AACC4E831AC087B75517A /* Pods-PickSwfit.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/AFNetworking",
+				);
 				INFOPLIST_FILE = PickSwfit/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Liu.PickSwfit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
 		CF8CAE081ED51DA200DA6F05 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5D60DA262CCC698CFF7DE25F /* Pods-PickSwfit.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/AFNetworking",
+				);
 				INFOPLIST_FILE = PickSwfit/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Liu.PickSwfit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
@@ -507,6 +610,7 @@
 				CF8CAE081ED51DA200DA6F05 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CF8CAE091ED51DA200DA6F05 /* Build configuration list for PBXNativeTarget "PickSwfitTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +619,7 @@
 				CF8CAE0B1ED51DA200DA6F05 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CF8CAE0C1ED51DA200DA6F05 /* Build configuration list for PBXNativeTarget "PickSwfitUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +628,7 @@
 				CF8CAE0E1ED51DA200DA6F05 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
