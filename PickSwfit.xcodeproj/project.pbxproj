@@ -9,13 +9,16 @@
 /* Begin PBXBuildFile section */
 		12FCCDAA4AA13263C728B514 /* Pods_PickSwfit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4727C323DC70B2E86C2B861 /* Pods_PickSwfit.framework */; };
 		CF8CADE21ED51DA200DA6F05 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF8CADE11ED51DA200DA6F05 /* AppDelegate.swift */; };
-		CF8CADE41ED51DA200DA6F05 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF8CADE31ED51DA200DA6F05 /* ViewController.swift */; };
 		CF8CADE71ED51DA200DA6F05 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF8CADE51ED51DA200DA6F05 /* Main.storyboard */; };
 		CF8CADE91ED51DA200DA6F05 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF8CADE81ED51DA200DA6F05 /* Assets.xcassets */; };
 		CF8CADEC1ED51DA200DA6F05 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF8CADEA1ED51DA200DA6F05 /* LaunchScreen.storyboard */; };
 		CF8CADF71ED51DA200DA6F05 /* PickSwfitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF8CADF61ED51DA200DA6F05 /* PickSwfitTests.swift */; };
 		CF8CAE021ED51DA200DA6F05 /* PickSwfitUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF8CAE011ED51DA200DA6F05 /* PickSwfitUITests.swift */; };
-		CFBD43DD1ED55D3200760E96 /* SwfitAFNetworking.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFBD43DC1ED55D3200760E96 /* SwfitAFNetworking.swift */; };
+		CFA8D3BE1EEF966C00E36D06 /* StreetViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CFA8D3BC1EEF966C00E36D06 /* StreetViewController.xib */; };
+		CFA8D3C11EEF96D800E36D06 /* SwfitAFNetworking.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFA8D3C01EEF96D800E36D06 /* SwfitAFNetworking.swift */; };
+		CFA8D3C61EEF96E200E36D06 /* ProvinceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFA8D3C31EEF96E200E36D06 /* ProvinceViewController.swift */; };
+		CFA8D3C71EEF96E200E36D06 /* StreetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFA8D3C41EEF96E200E36D06 /* StreetViewController.swift */; };
+		CFA8D3C81EEF96E200E36D06 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFA8D3C51EEF96E200E36D06 /* ViewController.swift */; };
 		CFE633091ED580400077958A /* AFNetworking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF6D0F9B1ED57CA300449C40 /* AFNetworking.framework */; };
 /* End PBXBuildFile section */
 
@@ -44,7 +47,6 @@
 		CF6D0F9B1ED57CA300449C40 /* AFNetworking.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AFNetworking.framework; path = "../../Library/Developer/Xcode/DerivedData/PickSwfit-gmsmbkoeenidzhguazlkclsqhzon/Build/Products/Debug-iphonesimulator/AFNetworking/AFNetworking.framework"; sourceTree = "<group>"; };
 		CF8CADDE1ED51DA200DA6F05 /* PickSwfit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PickSwfit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF8CADE11ED51DA200DA6F05 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CF8CADE31ED51DA200DA6F05 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		CF8CADE61ED51DA200DA6F05 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CF8CADE81ED51DA200DA6F05 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CF8CADEB1ED51DA200DA6F05 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -55,9 +57,13 @@
 		CF8CADFD1ED51DA200DA6F05 /* PickSwfitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PickSwfitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF8CAE011ED51DA200DA6F05 /* PickSwfitUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickSwfitUITests.swift; sourceTree = "<group>"; };
 		CF8CAE031ED51DA200DA6F05 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CFA8D3BC1EEF966C00E36D06 /* StreetViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = StreetViewController.xib; path = ../StreetViewController.xib; sourceTree = "<group>"; };
+		CFA8D3C01EEF96D800E36D06 /* SwfitAFNetworking.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwfitAFNetworking.swift; sourceTree = "<group>"; };
+		CFA8D3C31EEF96E200E36D06 /* ProvinceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProvinceViewController.swift; sourceTree = "<group>"; };
+		CFA8D3C41EEF96E200E36D06 /* StreetViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StreetViewController.swift; sourceTree = "<group>"; };
+		CFA8D3C51EEF96E200E36D06 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		CFBD43CD1ED539E400760E96 /* libAFNetworking.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libAFNetworking.a; path = "../../Library/Developer/Xcode/DerivedData/PickSwfit-gmsmbkoeenidzhguazlkclsqhzon/Build/Products/Debug-iphonesimulator/AFNetworking/libAFNetworking.a"; sourceTree = "<group>"; };
 		CFBD43CF1ED53B1B00760E96 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
-		CFBD43DC1ED55D3200760E96 /* SwfitAFNetworking.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwfitAFNetworking.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,13 +127,14 @@
 		CF8CADE01ED51DA200DA6F05 /* PickSwfit */ = {
 			isa = PBXGroup;
 			children = (
+				CFA8D3C91EEF971000E36D06 /* xib */,
+				CFA8D3C21EEF96E200E36D06 /* ViewController */,
+				CFA8D3BF1EEF96D800E36D06 /* 网络请求封装 */,
 				CF8CADE11ED51DA200DA6F05 /* AppDelegate.swift */,
-				CF8CADE31ED51DA200DA6F05 /* ViewController.swift */,
 				CF8CADE51ED51DA200DA6F05 /* Main.storyboard */,
 				CF8CADE81ED51DA200DA6F05 /* Assets.xcassets */,
 				CF8CADEA1ED51DA200DA6F05 /* LaunchScreen.storyboard */,
 				CF8CADED1ED51DA200DA6F05 /* Info.plist */,
-				CFBD43DC1ED55D3200760E96 /* SwfitAFNetworking.swift */,
 			);
 			path = PickSwfit;
 			sourceTree = "<group>";
@@ -148,6 +155,32 @@
 				CF8CAE031ED51DA200DA6F05 /* Info.plist */,
 			);
 			path = PickSwfitUITests;
+			sourceTree = "<group>";
+		};
+		CFA8D3BF1EEF96D800E36D06 /* 网络请求封装 */ = {
+			isa = PBXGroup;
+			children = (
+				CFA8D3C01EEF96D800E36D06 /* SwfitAFNetworking.swift */,
+			);
+			path = "网络请求封装";
+			sourceTree = "<group>";
+		};
+		CFA8D3C21EEF96E200E36D06 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				CFA8D3C51EEF96E200E36D06 /* ViewController.swift */,
+				CFA8D3C31EEF96E200E36D06 /* ProvinceViewController.swift */,
+				CFA8D3C41EEF96E200E36D06 /* StreetViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		CFA8D3C91EEF971000E36D06 /* xib */ = {
+			isa = PBXGroup;
+			children = (
+				CFA8D3BC1EEF966C00E36D06 /* StreetViewController.xib */,
+			);
+			path = xib;
 			sourceTree = "<group>";
 		};
 		F4C59EF0C2FC8ECF726CC36F /* Frameworks */ = {
@@ -276,6 +309,7 @@
 				CF8CADEC1ED51DA200DA6F05 /* LaunchScreen.storyboard in Resources */,
 				CF8CADE91ED51DA200DA6F05 /* Assets.xcassets in Resources */,
 				CF8CADE71ED51DA200DA6F05 /* Main.storyboard in Resources */,
+				CFA8D3BE1EEF966C00E36D06 /* StreetViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -348,9 +382,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CF8CADE41ED51DA200DA6F05 /* ViewController.swift in Sources */,
-				CFBD43DD1ED55D3200760E96 /* SwfitAFNetworking.swift in Sources */,
+				CFA8D3C81EEF96E200E36D06 /* ViewController.swift in Sources */,
+				CFA8D3C11EEF96D800E36D06 /* SwfitAFNetworking.swift in Sources */,
+				CFA8D3C61EEF96E200E36D06 /* ProvinceViewController.swift in Sources */,
 				CF8CADE21ED51DA200DA6F05 /* AppDelegate.swift in Sources */,
+				CFA8D3C71EEF96E200E36D06 /* StreetViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -14,7 +14,8 @@ class SwfitAFNetworking: AFHTTPSessionManager {
     //单列
     static let sharedTools:SwfitAFNetworking = {
         
-        let baseUrl = NSURL(string:"http://apis.map.qq.com/ws/district/v1/list?key=K3VBZ-M6WWV-PPSPY-UVGGC-DRM2Z-PGBMV")!//服务器基础地址
+        let baseUrl = NSURL(string:"")!//服务器基础地址
+    
         let manager = SwfitAFNetworking(baseURL:baseUrl as URL,sessionConfiguration:URLSessionConfiguration.default)
         
         manager.responseSerializer.acceptableContentTypes = NSSet(objects: "application/json","text/html","text/plain","text/json","text/javascript") as? Set<String>
